@@ -16,18 +16,18 @@ for (let i = 0; i < cantItems; i++) {
         html += `
     <div class="col-md-4 mb-4">
         <div class="card">
-            <img src="${propiedades[i].src}" class="card-img-top" alt="Imagen de la propiedad"/>
+            <img src="${propiedad.src}" class="card-img-top" alt="Imagen de la propiedad"/>
             <div class="card-body">
-            <h5 class="card-title">${propiedades[i].title}</h5>
-            <p class="card-text">${propiedades[i].description}</p>
+            <h5 class="card-title">${propiedad.title}</h5>
+            <p class="card-text">${propiedad.description}</p>
             <p>
-                <i class="fas fa-map-marker-alt"></i> ${propiedades[i].address}
+                <i class="fas fa-map-marker-alt"></i> ${propiedad.address}
             </p>
             <p>
-                <i class="fas fa-bed"></i> ${propiedades[i].bedrooms} Habitaciones | <i class="fas fa-bath"></i> ${propiedades[i].bathrooms} Baños
+                <i class="fas fa-bed"></i> ${propiedad.bedrooms} Habitaciones | <i class="fas fa-bath"></i> ${propiedades[i].bathrooms} Baños
             </p>
             <p>
-            <i class="fas fa-dollar-sign"></i> ${propiedades[i].price}
+            <i class="fas fa-dollar-sign"></i> ${propiedad.price}
             </p>
             ${fumarTexto}
             ${mascotasTexto}
